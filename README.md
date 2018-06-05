@@ -9,6 +9,9 @@ Resulting file will be stored in books/books.json
 It will take ~1 minute to execute
 # Possible issues
 When running the spider on Windows 10, it is possible that the next error will occur:
+
 `ImportError: No module named win32api.`
+
 Enter this command to fix it:
+
 `pip install pypiwin32`
